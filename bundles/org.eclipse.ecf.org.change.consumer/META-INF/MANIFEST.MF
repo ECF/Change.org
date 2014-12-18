@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer
+Bundle-SymbolicName: org.eclipse.ecf.org.change.consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.ecf.internal.org.change.consumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.change.api,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.1"
+Bundle-ActivationPolicy: lazy
