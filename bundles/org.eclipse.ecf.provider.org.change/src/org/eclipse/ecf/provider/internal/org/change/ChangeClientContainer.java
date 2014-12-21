@@ -117,7 +117,7 @@ public class ChangeClientContainer extends RestClientContainer {
 			// petition url
 			uriBuf.append("&petition_url=").append(
 					urlEncode((String) call.getParameters()[0]));
-			return new UriRequest(uriBuf.toString(), callable.getRequestType());
+			return new UriRequest(uriBuf.toString(), call, callable);
 		}
 		return null;
 	}
